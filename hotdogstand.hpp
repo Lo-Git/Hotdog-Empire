@@ -21,7 +21,7 @@ namespace MyAwesomeBusiness
 	    void sellHotdog();
 	    static int getNumStands();
 	    static int getTotalHotdogsSold();
-	    static int const Money getTotalRevenue();
+	    static const Money getTotalRevenue();
 	  private:
 	    Money cash;
 	    Money price;

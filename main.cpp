@@ -28,8 +28,8 @@ int main()
     vector<HotdogStand> franchises;
 
     cout << "Welcome!\n";
-    cout << "How many hotdog statnds do you own? ";
-    cin >> numberOfStand;
+    cout << "How many hotdog stands do you own? ";
+    cin >> numberOfStands;
     cout << endl;
 
     cout << "How many of those sell fancy hotdogs? ";
@@ -78,7 +78,7 @@ int main()
     }
 
   //decide random amount of fancy dogs and sell them
-    for (int k = 0; k < nummberOfStands; k++)
+    for (int k = 0; k < numberOfStands; k++)
     {
         for (int rand2 = fancyHDPerDay(generator); rand2 != 0; rand2--)
         {

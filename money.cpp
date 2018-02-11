@@ -1,6 +1,8 @@
 #include "money.hpp"
 #include <iostream>
 #include <cmath>
+using namespace MyAwesomeBusiness;
+
 Money::Money()
 {
     dollars = 0;

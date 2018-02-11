@@ -1,6 +1,7 @@
 #include "hotdogstand.hpp"
 #include <iostream>
 #include <cmath>
+using namespace MyAwesoneBusiness;
 
 HotdogStand::HotdogStand()
 {
